@@ -1,0 +1,139 @@
+/* .text-prt {color: red;}
+.text-sec {color: #4433dd;} */
+
+/* GoogleFonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+:root,
+[data-bs-theme=light]{
+    --bs-dark-rgb:98, 16, 16;
+    --bs-info-bg-subtle:rgba(182, 226, 146, 0.815);
+    --bs-info-text-emphasis:rgb(164, 41, 41);
+    --bs-info-border-subtle:rgb(29, 17, 168);
+    --bs-dark-bg-subtle:rgba(189, 151, 202, 0.815);
+    --bs-dark-text-emphasis:rgb(120, 116, 227);
+    --bs-dark-border-subtle:rgba(148, 14, 7, 0.753);
+    --bs-light-bg-subtle:rgba(0, 0, 0, 0.815);
+    --bs-light-text-emphasis:rgb(252, 252, 252);
+    --bs-light-border-subtle:rgba(224, 20, 20, 0.962);
+    --bs-warning-text-emphasis:rgba(234, 77, 187, 0.805);
+    --bs-warning-border-subtle:rgba(14, 236, 25, 0.962);
+    --bs-warning-bg-subtle:rgba(238, 228, 94, 0.867);
+
+    --bs-emphasis-color: #180f97;
+    --bs-emphasis-color-rgb: rgb(224, 106, 27);
+}
+
+.alert-qi{
+    background-color: antiquewhite ;
+    color:rgb(146, 17, 17) ;
+    border-color: rgb(93, 20, 149);
+    
+}
+
+.modal{
+    --bs-modal-width: 800px;
+}
+
+
+/* GoogleFonts字體套用在body */
+
+body {
+    font-family:"微軟正黑體","Noto Sans TC", sans-serif;
+ }
+  
+
+h2 {font-size: 2rem;font-weight: 900;color: rgb(120, 10, 171);} 
+
+.h2-custom-pink {font-size: 3rem;font-weight: 900;color: rgb(49, 180, 13);}
+
+P {font-size: 1.2rem;font-weight: 500;color: rgb(104, 104, 33);} 
+.p-2 {font-size: 1.5rem;font-weight: 500;color: rgb(0, 0, 0);} 
+P2 {font-size: 2rem;font-weight: 500;color: rgb(215, 61, 10);} 
+
+/* 自訂邊框色彩 */
+.card-cutom{
+    border-style:dotted;
+    border-width:11px;
+    border-radius: 10px;
+    border-color: rgba(23, 168, 173, 0.469)
+  
+  
+}
+
+.card-cutom2{
+    border-style: groove;
+    border-width:11px;
+    border-radius: 10px;
+    border-color: rgba(201, 20, 53, 0.469)
+  
+  
+}
+
+.card-cutom3{
+    border-style: dashed;
+    border-width:5px;
+    border-radius: 10px;
+    border-color: rgba(216, 112, 21, 0.469)
+}
+
+.card-cutom4{
+    border-style: groove;
+    border-width:5px;
+    border-radius: 20px;
+    border-color: rgba(105, 14, 133, 0.469)
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+.btn-yia {
+    --bs-btn-color: rgb(164, 41, 41);
+    --bs-btn-bg: rgba(182, 226, 146, 0.815);
+    --bs-btn-border-color: rgb(29, 17, 168);
+}
+
+.btn-gi {
+    --bs-btn-color: rgb(120, 116, 227);
+    --bs-btn-bg: rgba(189, 151, 202, 0.815);
+    --bs-btn-border-color: rgba(148, 14, 7, 0.753);
+}
+
+.btn-gigi {
+    --bs-btn-color: rgb(255, 255, 255);
+    --bs-btn-bg: rgba(0, 0, 0, 0.815);
+    --bs-btn-border-color: rgba(148, 14, 7, 0.753);
+}
+
+.btn-fr {
+    --bs-btn-color: rgb(234, 77, 187, 0.805);
+    --bs-btn-bg: rgba(238, 228, 94, 0.867);
+    --bs-btn-border-color: rgba(14, 236, 25, 0.962);
+}
+
+.text-font{
+    color: red;
+}
+
+.icontitle{
+    font-size: 2.5rem !important; 
+    color:red;
+    vertical-align: bottom;
+}
+
+.icontitle2{
+    font-size: 1.5rem !important; 
+    color:rgb(0, 0, 0);
+    vertical-align: bottom;
+}
+
+.ul-1{list-style-type:square;font-size: 1.5rem;}
+.ul-2{list-style-type:disc;font-size: 1.5rem;}
+
+.card-no-border{
+    border: none;
+}
+
+h5{font-weight:900;color: red;font-size:x-large;font}
